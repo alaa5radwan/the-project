@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="keywords" content="HTML, CSS, JavaScript">
+        <style>
+           * {box-sizing: border-box;}
+           body{margin: 0;
+           background-color: black;
+           color: white;
+           font-size: 18px; }
+   .navbar ul{ margin: 0;}
+   ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding: 0;
+  overflow: hidden;
+float: right;
+height: 45px;
+}
+.navbar{ 
+    top: 0px;
+right: 0;}
+
+li {  float: right;}
+li a {         
+  display: block;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  margin-right: 0%;
+  width: 100%;
+}
+li a:hover {
+border-bottom: 1px solid rgb(42, 121, 185);
+}
+section{
+    background: url('carff.jpg')  ;
+    width: 100%;
+}
+#home {
+margin: 0px;
+padding: 20px;
+font-size: 200%;
+color: white;}
+.home {margin: 10%;
+border-left: 3px solid white;
+padding: 10px;
+}
+ header{position: fixed;
+ width: 100%;
+top:0;
+right:0 ;
+}  
+ ul{background-color:transparent ;border-bottom: 1px solid rgb(97, 85, 85); width: 100%;}
+ @media screen and (max-width:700px) {
+
+section { background: url('carf1.jpg') top left ;}
+}
+        </style>
+    </head>
+    <body>
+        <header >
+        <nav class="navbar">
+            <ul>
+                <li><a href="form.html" >form</a></li>          
+                <li><a href="view.html">view</a></li>
+               <li><a href="types.html">types</a></li>
+               <li><a href="topic.html">topic</a></li>
+               <li><a href="home.html" style="background-color: rgb(60, 67, 92);"> Home</a></li>
+             </ul>
+            </nav>
+        </header>
+        <section>
+         <div id ="home">
+             <div class="home">
+<h1 >hi! </h1>
+we will talk about cars</div>
+</div>
+</section>
+    </body>
+</html>
