@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="keywords" content="HTML, CSS, JavaScript">
+        <style>
+           * {box-sizing: border-box;}
+           body{margin: 0;
+           background-color: black;
+           color: white;
+           font-size: 18px; }
+   .navbar ul{ margin: 0;}
+   ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding: 0;
+  overflow: hidden;
+float: right;
+height: 45px;
+}
+.navbar{ 
+    top: 0px;
+right: 0;}
+
+li {  float: right;}
+li a {         
+  display: block;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  margin-right: 0%;
+  width: 100%;
+}
+li a:hover {
+border-bottom: 1px solid rgb(42, 121, 185);
+}
+.blog-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+  width: 100%;
+    justify-content: space-around;
+float: left;
+}
+input {border-radius: 10px;
+border:2px solid rgb(119, 154, 206);}
+.blog-box {
+    flex: 0 0 25%;
+   max-width: 20%;
+    border: 1px solid rgb(66, 74, 87);
+    background-color: rgb(52, 58, 70);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(172, 174, 184, 0.2);
+    padding: 0px  0px;
+    margin: 10px 6.5%;
+    height: 280px;
+    float: left;
+    font-size: medium;
+}
+
+.blog-img {
+    overflow: hidden;
+    margin: 0;
+}
+.blog-img img {
+  margin: 0;
+  width: 100%;
+    height: 170px;
+    display: block;
+    transition: all 0.5s ease;
+    }
+
+.blog-box:hover .blog-img img {
+    transform: scale(1.1);
+}
+.blog-text {
+    padding:0;
+    margin: 0;
+}
+input {width: 160px;}
+@media screen and (max-width:700px) {
+ 
+  div.blog-box   { min-width: 55%; margin-right: 40%; }
+}
+        </style>
+    </head>
+    <body>
+        <header >
+        <nav class="navbar">
+            <ul>
+                <li><a href="form.html" >form</a></li>          
+                <li><a href="view.html" style="background-color: rgb(60, 67, 92);">view</a></li>
+               <li><a href="types.html">types</a></li>
+               <li><a href="topic.html">topic</a></li>
+               <li><a href="home.html" > Home</a></li>
+             </ul>
+            </nav>
+        </header>
+   
+
+        <div class="blog-content" style="margin-bottom: 100px;">
+            <div class="view" id ="view">
+            <h1 style="text-align: center; width: 100%; border-top:1px solid rgb(119, 154, 206);">some view cars </h1>
+             <div class="blog-box">
+                <div class="blog-img">
+                   <img src='car1.jpg' >
+                </div>
+                <div class="blog-text">
+                   <p><i>An English Sunbeam-Talbot, from the late 1940s</i></p>
+                </div>
+             </div>
+             <div class="blog-box">
+                <div class="blog-img">
+                   <img src='car2.JPG' />
+                </div>
+                <div class="blog-text">             
+                   <p><i>Solar-powered car</i></p>
+                </div>
+             </div>
+             <div class="blog-box">
+                <div class="blog-img">
+                   <img src='car3.jpg' />
+                </div>
+                <div class="blog-text">
+                   <p><i>The first Benz Patent Motorwagen.</i></p>
+                </div>
+             </div>
+             <div class="blog-box">
+              <div class="blog-img">
+                 <img src='car4.jpg' >
+              </div>
+              <div class="blog-text">
+                 <p><i>The Ford Model T was the first automobile sold at a price most people could afford</i></p>
+              </div>
+             </div>
+            <div class="blog-box">
+              <div class="blog-img">
+                 <img src='car5.JPG' />
+              </div>
+              <div class="blog-text">             
+                 <p><i>The Ford Ka, a small, efficient automobile</i></p>
+              </div>
+           </div>
+          
+        </div> 
+        <a href="https://simple.wikipedia.org/wiki/Automobile" style="text-align: center ;background-color: darkgray; text-decoration: none; padding: 10px; border-radius: 5px;">learn more</a>
+    </div> 
+    </body>
+</html>

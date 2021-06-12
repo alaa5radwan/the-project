@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="keywords" content="HTML, CSS, JavaScript">
+        <style>
+           * {box-sizing: border-box;}
+           body{margin: 0;
+           background-color: black;
+           color: white;
+           font-size: 18px; }
+   .navbar ul{ margin: 0;}
+   ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding: 0;
+  overflow: hidden;
+float: right;
+height: 45px;
+}
+.navbar{ 
+    top: 0px;
+right: 0;}
+
+li {  float: right;}
+li a {         
+  display: block;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  margin-right: 0%;
+  width: 100%;
+}
+li a:hover {
+border-bottom: 1px solid rgb(42, 121, 185);
+}
+
+ header{position: fixed;
+ width: 100%;
+top:0;
+right:0 ;
+}  
+ ul{background-color: rgb(33, 34, 32);}
+ ul{border-bottom: 1px solid rgb(97, 85, 85); width: 100%;}
+ table {  border-collapse: collapse;
+
+display: inline-block;
+counter-reset: number;}
+#types td:first-of-type::after {counter-increment: number;
+content: counter(number);
+text-align: left;
+float: left;
+} 
+.po{color: green;}
+.ne{color: red;}
+ td {text-align: right;}
+ th{background-color: lightseagreen;}
+#types tr:nth-child(even){background-color: #221e1e;
+border-collapse: collapse;}
+#types td,th{ border: 1px solid #ddd; width: 100%;} 
+#t1 , #t2 {width: 45%; }
+
+@media screen and (max-width:700px) {
+  #types  table   {width: 100%; display: inline-block;float: none;}
+}
+        </style>
+    </head>
+    <body>
+        <header >
+        <nav class="navbar">
+            <ul>
+                <li><a href="form.html" >form</a></li>          
+                <li><a href="view.html">view</a></li>
+               <li><a href="types.html" style="background-color: rgb(60, 67, 92);">types</a></li>
+               <li><a href="topic.html">topic</a></li>
+               <li><a href="home.html" > Home</a></li>
+             </ul>
+            </nav>
+        </header>
+         <div style="width: 100%;">
+            <div id = "types" >
+              <hr>
+              there are many types of cars that different in sales lets se about that :<br><br>
+            
+              <table id="t1">
+                <tr>
+                  <th colspan="2">Brand* </th>
+                  <th >sales </th>
+                  <th >YOY </th>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>TOYOTA</td>
+                  <td>1,944,413</td>
+                  <td class="po">+30%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>NISSAN</td>
+                  <td>1,458,254</td>
+                  <td class="po">+13%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>HONDA</td>
+                  <td>1,785,435</td>
+                  <td class="po">+12%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>FORD</td>
+                  <td>1,587,751</td>
+                  <td class="po">+3%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>JEEP</td>
+                  <td>1,388,483</td>
+                  <td style="color: grey;">0%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>HYUNDA</td>
+                  <td>1,233,752</td>
+                  <td class="ne">-3%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>CHEVROLET</td>
+                  <td>900,369</td>
+                  <td class="po">+7%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>VOLKSWAGEN</td>
+                  <td>86,41</td>
+                  <td class="po">+53%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>GPEAT WALL</td>
+                  <td>859,349</td>
+                  <td class="ne">-9%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>KIA</td>
+                  <td>811,452</td>
+                  <td class="ne">-9%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>MERCEDES</td>
+                  <td>788,452</td>
+                  <td class="po">+18%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>AUDI</td>
+                  <td>680.189</td>
+                  <td class="po">+18%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>BMW</td>
+                  <td>668,475</td>
+                  <td class="po">+10%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>MAZDA</td>
+                  <td>668,475</td>
+                  <td class="po">+18%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>GEELY</td>
+                  <td>663,785</td>
+                  <td class="po">+44%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>RENAULT</td>
+                  <td>602,522</td>
+                  <td class="po">+13%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>CHNAULT</td>
+                  <td>557,999</td>
+                  <td class="po">+21%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>PEUGEOT</td>
+                  <td>578,405</td>
+                  <td class="po">+70%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>BUICK</td>
+                  <td>422,475</td>
+                  <td class="ne">-6%</td>
+                </tr>
+         
+              <table style="float: right;" id="t2">
+                <tr>
+                  <th colspan="2">Model** </th>
+                  <th >sales </th>
+                  <th >YOY </th>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>X-TAPAL/ROGUE</td>
+                  <td>1814,495</td>
+                  <td class="po">+6%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>NRAVA</td>
+                  <td>700,275</td>
+                  <td class="po">+11%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>CR-V</td>
+                  <td>752,435</td>
+                  <td class="po">+7%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>TIGUAN</td>
+                  <td>685,751</td>
+                  <td class="po">+34%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>HR-V/XR-V/VEZEL</td>
+                  <td>689,622</td>
+                  <td class="ne">-4%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>QASHQAI/ROGUE</td>
+                  <td>9515,718</td>
+                  <td class="po">+19%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>HAVAL/HOVER H6</td>
+                  <td>576,758</td>
+                  <td class="ne">-12%</td>
+                </tr>
+               
+                <tr>
+                  <td></td>
+                  <td>cx-5</td>
+                  <td>584,485</td>
+                  <td class="po">+13%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>sportage</td>
+                  <td>398,759</td>
+                  <td class="ne">-22%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>EQUINOX</td>
+                  <td>3584,499</td>
+                  <td class="ne">-9%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>510</td>
+                  <td>322,785</td>
+                  <td >New</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>HIGHLANDER</td>
+                  <td>358.125</td>
+                  <td class="po">+12%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>TRUMPCHI</td>
+                  <td>337,330</td>
+                  <td class="po">+1%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>GLC-CLASS/COUBLE</td>
+                  <td>499.215</td>
+                  <td class="po">+37%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>EXPLORER</td>
+                  <td>30,644</td>
+                  <td class="po">+12%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>CRAND CHEROKEE</td>
+                  <td>294,458</td>
+                  <td class="po">+8%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>EDGA</td>
+                  <td>281.213</td>
+                  <td class="ne">-1%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>BOYUE</td>
+                  <td>289,360</td>
+                  <td class="po">+163%</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>X1</td>
+                  <td>281,099</td>
+                  <td class="po">+31%</td>
+                </tr>
+              </table>
+            </div>    
+         </div>
+     </body>
+        </html>
